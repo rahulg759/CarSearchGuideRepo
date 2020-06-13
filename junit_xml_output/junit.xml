@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.796789">
+<testcase classname="Acceptance Testing to validate the Search Car page is working fine." name="Validate the Serach car page" time="53.796789">
+<system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
+When I move to the menu.....................................................passed
+And Click on "Search Cars" link.............................................passed
+And Select carbrand as "BMW" from AnyMake dropdown..........................passed
+And Select model as "  118D" from models dropdown...........................passed
+And Select location as "NSW - Hunter" from locations dropdown...............passed
+And Select price as "$45,000" from prices dropdown..........................passed
+And Click on "Find my next car" button......................................passed
+Then I should see the searched cars list....................................passed
+And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
+]]></system-out>
+</testcase>
+</testsuite>

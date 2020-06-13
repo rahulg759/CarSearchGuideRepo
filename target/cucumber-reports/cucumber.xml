@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="89.254381">
+<testcase classname="Acceptance Testing to validate the New Search Car page is working fine." name="Validate the New Serach Car Page" time="24.835248">
+<system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
+When I move to the menu.....................................................passed
+And Click on "New Search Cars" link on New Search Cars......................passed
+And Select carbrand as "Alfa Romeo" from AnyMake dropdown on New Search Cars.passed
+And Select car model on New Search Car page.................................passed
+And Select location as "NSW - All" from locations dropdown on New Search Cars.passed
+And Select price as "$3,000" from prices dropdown on New Search Cars........passed
+And Click on Find my next car button on New Search Cars.....................passed
+Then I should see the searched cars list on New Search Cars.................passed
+And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
+]]></system-out>
+</testcase>
+<testcase classname="Acceptance Testing to validate the Search Car page is working fine." name="Validate the Serach car page" time="27.300335">
+<system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
+When I move to the menu.....................................................passed
+And Click on "Search Cars" link on Search Cars..............................passed
+And Select carbrand as "BMW" from AnyMake on Search Cars....................passed
+And Select car model on Search Car page.....................................passed
+And Select location as "NSW - Hunter" from locations dropdown on Search Cars.passed
+And Select price as "$45,000" from prices dropdown on Search Cars...........passed
+And Click on Find my next car button on Search Cars.........................passed
+Then I should see the searched cars list on Search Cars.....................passed
+And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
+]]></system-out>
+</testcase>
+<testcase classname="Acceptance Testing to validate the Used Search Car page is working fine." name="Validate the Used Serach Car page" time="37.118798">
+<system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
+When I move to the menu.....................................................passed
+And Click on "Used Search Cars" link on Used Search Cars....................passed
+And Select carbrand as "Audi" from AnyMake dropdown on Used Search Cars.....passed
+And Select car model on Used Search Cars....................................passed
+And Select location as "NSW - Riverina" from locations dropdown on Used Search Cars.passed
+And Select price as "$2,000" from prices dropdown on Used Search Cars.......passed
+And Click on Find my next car button on Used Search Cars....................passed
+Then I should see the searched cars list on Used Search Cars................passed
+And The page title should be "Used Audi A3 Under 2000 for Sale Riverina NSW | carsguide".passed
+]]></system-out>
+</testcase>
+</testsuite>
