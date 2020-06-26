@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="89.254381">
-<testcase classname="Acceptance Testing to validate the New Search Car page is working fine." name="Validate the New Serach Car Page" time="24.835248">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="158.453389">
+<testcase classname="Acceptance Testing to validate the New Search Car page is working fine." name="Validate the New Serach Car Page" time="27.450458">
 <system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
 When I move to the menu.....................................................passed
 And Click on "New Search Cars" link on New Search Cars......................passed
@@ -12,20 +12,50 @@ Then I should see the searched cars list on New Search Cars.................pass
 And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Acceptance Testing to validate the Search Car page is working fine." name="Validate the Serach car page" time="27.300335">
-<system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
+<testcase classname="Acceptance Testing to validate the Search Car page is working fine." name="Validate the Serach car page" time="116.631597">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Search Cars&quot;}&#10;  (Session info: chrome=83.0.4103.106)&#10;  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 31.45 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'LAPTOP-E069LGRR', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54269}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\WINDOWS\TEMP\scoped_dir10632_1475571757}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: b6445312157bfceb8a2b3413083582f0&#10;*** Element info: {Using=link text, value=Search Cars}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy17.click(Unknown Source)&#13;&#10;&#9;at pages.actions.CarsGuideHomePageActions.clickOnSearchCarsMenu(CarsGuideHomePageActions.java:27)&#13;&#10;&#9;at stepdefination.SearchCars.click_on_link_on_Search_Cars(SearchCars.java:37)&#13;&#10;&#9;at ✽.And Click on &quot;Search Cars&quot; link on Search Cars(BuySearchCars.feature:15)&#13;&#10;"><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
 When I move to the menu.....................................................passed
-And Click on "Search Cars" link on Search Cars..............................passed
-And Select carbrand as "BMW" from AnyMake on Search Cars....................passed
-And Select car model on Search Car page.....................................passed
-And Select location as "NSW - Hunter" from locations dropdown on Search Cars.passed
-And Select price as "$45,000" from prices dropdown on Search Cars...........passed
-And Click on Find my next car button on Search Cars.........................passed
-Then I should see the searched cars list on Search Cars.....................passed
-And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
-]]></system-out>
+And Click on "Search Cars" link on Search Cars..............................failed
+And Select carbrand as "BMW" from AnyMake on Search Cars....................skipped
+And Select car model on Search Car page.....................................skipped
+And Select location as "NSW - Hunter" from locations dropdown on Search Cars.skipped
+And Select price as "$45,000" from prices dropdown on Search Cars...........skipped
+And Click on Find my next car button on Search Cars.........................skipped
+Then I should see the searched cars list on Search Cars.....................skipped
+And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Search Cars"}
+  (Session info: chrome=83.0.4103.106)
+  (Driver info: chromedriver=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform=Windows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31.45 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-E069LGRR', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54269}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\WINDOWS\TEMP\scoped_dir10632_1475571757}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=83.0.4103.106, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: b6445312157bfceb8a2b3413083582f0
+*** Element info: {Using=link text, value=Search Cars}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at pages.actions.CarsGuideHomePageActions.clickOnSearchCarsMenu(CarsGuideHomePageActions.java:27)
+	at stepdefination.SearchCars.click_on_link_on_Search_Cars(SearchCars.java:37)
+	at ✽.And Click on "Search Cars" link on Search Cars(BuySearchCars.feature:15)
+]]></failure>
 </testcase>
-<testcase classname="Acceptance Testing to validate the Used Search Car page is working fine." name="Validate the Used Serach Car page" time="37.118798">
+<testcase classname="Acceptance Testing to validate the Used Search Car page is working fine." name="Validate the Used Serach Car page" time="14.371334">
 <system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
 When I move to the menu.....................................................passed
 And Click on "Used Search Cars" link on Used Search Cars....................passed
