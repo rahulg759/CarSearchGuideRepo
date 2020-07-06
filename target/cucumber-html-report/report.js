@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 12070344700,
+  "duration": 12059685500,
   "status": "passed"
 });
 formatter.scenario({
@@ -130,14 +130,14 @@ formatter.match({
   "location": "SearchCars.i_am_on_homepage_of_carsguide_portal(String)"
 });
 formatter.result({
-  "duration": 2500574900,
+  "duration": 6319343700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 1430346000,
+  "duration": 183282300,
   "status": "passed"
 });
 formatter.match({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "NewCarSearch.click_on_link_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 460921400,
+  "duration": 2449075400,
   "status": "passed"
 });
 formatter.match({
@@ -163,14 +163,14 @@ formatter.match({
   "location": "NewCarSearch.select_carbrand_as_from_AnyMake_dropdown_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 998977500,
+  "duration": 3169624100,
   "status": "passed"
 });
 formatter.match({
   "location": "NewCarSearch.select_car_model_on_New_Search_Car_page(String\u003e)"
 });
 formatter.result({
-  "duration": 677778100,
+  "duration": 1107660400,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "NewCarSearch.select_location_as_from_locations_dropdown_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 190286600,
+  "duration": 4111439300,
   "status": "passed"
 });
 formatter.match({
@@ -196,21 +196,21 @@ formatter.match({
   "location": "NewCarSearch.select_price_as_from_prices_dropdown_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 537701100,
+  "duration": 1515748200,
   "status": "passed"
 });
 formatter.match({
   "location": "NewCarSearch.click_on_Find_my_next_car_button_on_New_Search_Cars()"
 });
 formatter.result({
-  "duration": 14900,
+  "duration": 45900,
   "status": "passed"
 });
 formatter.match({
   "location": "NewCarSearch.i_should_see_the_searched_cars_list_on_New_Search_Cars()"
 });
 formatter.result({
-  "duration": 2054724000,
+  "duration": 4400946400,
   "status": "passed"
 });
 formatter.match({
@@ -223,11 +223,11 @@ formatter.match({
   "location": "SearchCars.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 42600,
+  "duration": 130300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 6528746500,
+  "duration": 9142499700,
   "status": "passed"
 });
 formatter.uri("BuySearchCars.feature");
@@ -245,7 +245,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 9469989900,
+  "duration": 7781660500,
   "status": "passed"
 });
 formatter.scenario({
@@ -362,14 +362,14 @@ formatter.match({
   "location": "SearchCars.i_am_on_homepage_of_carsguide_portal(String)"
 });
 formatter.result({
-  "duration": 6009255300,
+  "duration": 2451919200,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 8073286100,
+  "duration": 356389600,
   "status": "passed"
 });
 formatter.match({
@@ -382,9 +382,8 @@ formatter.match({
   "location": "SearchCars.click_on_link_on_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 31635528300,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Search Cars\"}\n  (Session info: chrome\u003d83.0.4103.106)\n  (Driver info: chromedriver\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 31.45 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-E069LGRR\u0027, ip: \u0027192.168.99.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54269}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir\u003dC:\\WINDOWS\\TEMP\\scoped_dir10632_1475571757}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d83.0.4103.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: b6445312157bfceb8a2b3413083582f0\n*** Element info: {Using\u003dlink text, value\u003dSearch Cars}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat pages.actions.CarsGuideHomePageActions.clickOnSearchCarsMenu(CarsGuideHomePageActions.java:27)\r\n\tat stepdefination.SearchCars.click_on_link_on_Search_Cars(SearchCars.java:37)\r\n\tat ✽.And Click on \"Search Cars\" link on Search Cars(BuySearchCars.feature:15)\r\n",
-  "status": "failed"
+  "duration": 1743042700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -396,13 +395,15 @@ formatter.match({
   "location": "SearchCars.select_carbrand_as_from_AnyMake_on_Search_Cars(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3080178800,
+  "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.select_car_model_on_Search_Car_page(String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 386602000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -414,7 +415,8 @@ formatter.match({
   "location": "SearchCars.select_location_as_from_locations_dropdown_on_Search_Cars(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 310042200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -426,19 +428,22 @@ formatter.match({
   "location": "SearchCars.select_price_as_from_prices_dropdown_on_Search_Cars(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 866445200,
+  "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.click_on_Find_my_next_car_button_on_Search_Cars()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 106300,
+  "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_should_see_the_searched_cars_list_on_Search_Cars()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1546801700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -450,12 +455,12 @@ formatter.match({
   "location": "SearchCars.the_page_title_should_be(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 133400,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 61443537200,
-  "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome\u003d83.0.4103.106)\n  (Driver info: chromedriver\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 61.45 seconds\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027LAPTOP-E069LGRR\u0027, ip: \u0027192.168.99.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:54269}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir\u003dC:\\WINDOWS\\TEMP\\scoped_dir10632_1475571757}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d83.0.4103.106, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: b6445312157bfceb8a2b3413083582f0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)\r\n\tat stepdefination.AfterActions.tearDown(AfterActions.java:20)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\r\n",
-  "status": "failed"
+  "duration": 1242988600,
+  "status": "passed"
 });
 formatter.uri("BuyUsedCarSearch.feature");
 formatter.feature({
@@ -472,7 +477,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 85600,
+  "duration": 5811652200,
   "status": "passed"
 });
 formatter.scenario({
@@ -595,14 +600,14 @@ formatter.match({
   "location": "SearchCars.i_am_on_homepage_of_carsguide_portal(String)"
 });
 formatter.result({
-  "duration": 4581318800,
+  "duration": 4820023800,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 1025763600,
+  "duration": 260113300,
   "status": "passed"
 });
 formatter.match({
@@ -615,7 +620,7 @@ formatter.match({
   "location": "UsedCarSearch.click_on_link_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 800214100,
+  "duration": 1128071600,
   "status": "passed"
 });
 formatter.match({
@@ -628,14 +633,14 @@ formatter.match({
   "location": "UsedCarSearch.select_carbrand_as_from_AnyMake_dropdown_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 1023468100,
+  "duration": 1336881100,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearch.select_car_model_on_Used_Search_Cars(String\u003e)"
 });
 formatter.result({
-  "duration": 375260700,
+  "duration": 1950374400,
   "status": "passed"
 });
 formatter.match({
@@ -648,7 +653,7 @@ formatter.match({
   "location": "UsedCarSearch.select_location_as_from_locations_dropdown_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 210057600,
+  "duration": 462060600,
   "status": "passed"
 });
 formatter.match({
@@ -661,21 +666,21 @@ formatter.match({
   "location": "UsedCarSearch.select_price_as_from_prices_dropdown_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 756919800,
+  "duration": 1565526700,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearch.click_on_Find_my_next_car_button_on_Used_Search_Cars()"
 });
 formatter.result({
-  "duration": 39200,
+  "duration": 99700,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearch.i_should_see_the_searched_cars_list_on_Used_Search_Cars()"
 });
 formatter.result({
-  "duration": 380248400,
+  "duration": 1782334300,
   "status": "passed"
 });
 formatter.match({
@@ -688,11 +693,11 @@ formatter.match({
   "location": "SearchCars.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 94000,
+  "duration": 117400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 5217863600,
+  "duration": 5932215300,
   "status": "passed"
 });
 });
