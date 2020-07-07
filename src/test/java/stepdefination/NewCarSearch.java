@@ -11,7 +11,7 @@ import pages.actions.NewCarSearchPageActions;
 import pages.actions.UsedCarsSearchPageActions;
 
 public class NewCarSearch {
-
+ 
 	CarsGuideHomePageActions carsGuideHomePageActions = new CarsGuideHomePageActions();
 	CarSearchPageActions carSearchPageActions = new CarSearchPageActions();
 	UsedCarsSearchPageActions usedCarsSearchPageActions = new UsedCarsSearchPageActions();

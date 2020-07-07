@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="89.275261">
-<testcase classname="Acceptance Testing to validate the New Search Car page is working fine." name="Validate the New Serach Car Page" time="44.459481">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="72.4726">
+<testcase classname="Acceptance Testing to validate the New Search Car page is working fine." name="Validate the New Serach Car Page" time="27.437372">
 <system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
 When I move to the menu.....................................................passed
 And Click on "New Search Cars" link on New Search Cars......................passed
@@ -12,7 +12,7 @@ Then I should see the searched cars list on New Search Cars.................pass
 And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Acceptance Testing to validate the Search Car page is working fine." name="Validate the Serach car page" time="19.76631">
+<testcase classname="Acceptance Testing to validate the Search Car page is working fine." name="Validate the Serach car page" time="21.877613">
 <system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
 When I move to the menu.....................................................passed
 And Click on "Search Cars" link on Search Cars..............................passed
@@ -25,7 +25,7 @@ Then I should see the searched cars list on Search Cars.....................pass
 And The page title should be "Bmw 118d Under 45000 for Sale Hunter NSW | carsguide".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Acceptance Testing to validate the Used Search Car page is working fine." name="Validate the Used Serach Car page" time="25.04947">
+<testcase classname="Acceptance Testing to validate the Used Search Car page is working fine." name="Validate the Used Serach Car page" time="23.157615">
 <system-out><![CDATA[Given I am on homepage "https://www.carsguide.com.au/" of carsguide portal..passed
 When I move to the menu.....................................................passed
 And Click on "Used Search Cars" link on Used Search Cars....................passed

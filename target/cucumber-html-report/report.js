@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 12059685500,
+  "duration": 8082983300,
   "status": "passed"
 });
 formatter.scenario({
@@ -130,14 +130,14 @@ formatter.match({
   "location": "SearchCars.i_am_on_homepage_of_carsguide_portal(String)"
 });
 formatter.result({
-  "duration": 6319343700,
+  "duration": 3729627300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 183282300,
+  "duration": 248903700,
   "status": "passed"
 });
 formatter.match({
@@ -150,7 +150,7 @@ formatter.match({
   "location": "NewCarSearch.click_on_link_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 2449075400,
+  "duration": 3520518000,
   "status": "passed"
 });
 formatter.match({
@@ -163,14 +163,14 @@ formatter.match({
   "location": "NewCarSearch.select_carbrand_as_from_AnyMake_dropdown_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 3169624100,
+  "duration": 2403450800,
   "status": "passed"
 });
 formatter.match({
   "location": "NewCarSearch.select_car_model_on_New_Search_Car_page(String\u003e)"
 });
 formatter.result({
-  "duration": 1107660400,
+  "duration": 800535200,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "NewCarSearch.select_location_as_from_locations_dropdown_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 4111439300,
+  "duration": 675468200,
   "status": "passed"
 });
 formatter.match({
@@ -196,21 +196,21 @@ formatter.match({
   "location": "NewCarSearch.select_price_as_from_prices_dropdown_on_New_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 1515748200,
+  "duration": 1564972800,
   "status": "passed"
 });
 formatter.match({
   "location": "NewCarSearch.click_on_Find_my_next_car_button_on_New_Search_Cars()"
 });
 formatter.result({
-  "duration": 45900,
+  "duration": 54900,
   "status": "passed"
 });
 formatter.match({
   "location": "NewCarSearch.i_should_see_the_searched_cars_list_on_New_Search_Cars()"
 });
 formatter.result({
-  "duration": 4400946400,
+  "duration": 616381200,
   "status": "passed"
 });
 formatter.match({
@@ -223,11 +223,11 @@ formatter.match({
   "location": "SearchCars.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 130300,
+  "duration": 375900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 9142499700,
+  "duration": 5794101000,
   "status": "passed"
 });
 formatter.uri("BuySearchCars.feature");
@@ -245,7 +245,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7781660500,
+  "duration": 5618001800,
   "status": "passed"
 });
 formatter.scenario({
@@ -362,14 +362,14 @@ formatter.match({
   "location": "SearchCars.i_am_on_homepage_of_carsguide_portal(String)"
 });
 formatter.result({
-  "duration": 2451919200,
+  "duration": 3615160400,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 356389600,
+  "duration": 1090290000,
   "status": "passed"
 });
 formatter.match({
@@ -382,7 +382,7 @@ formatter.match({
   "location": "SearchCars.click_on_link_on_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 1743042700,
+  "duration": 2396550500,
   "status": "passed"
 });
 formatter.match({
@@ -395,14 +395,14 @@ formatter.match({
   "location": "SearchCars.select_carbrand_as_from_AnyMake_on_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 3080178800,
+  "duration": 1461657800,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.select_car_model_on_Search_Car_page(String\u003e)"
 });
 formatter.result({
-  "duration": 386602000,
+  "duration": 989151600,
   "status": "passed"
 });
 formatter.match({
@@ -415,7 +415,7 @@ formatter.match({
   "location": "SearchCars.select_location_as_from_locations_dropdown_on_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 310042200,
+  "duration": 713831000,
   "status": "passed"
 });
 formatter.match({
@@ -428,21 +428,21 @@ formatter.match({
   "location": "SearchCars.select_price_as_from_prices_dropdown_on_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 866445200,
+  "duration": 323977600,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.click_on_Find_my_next_car_button_on_Search_Cars()"
 });
 formatter.result({
-  "duration": 106300,
+  "duration": 87700,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_should_see_the_searched_cars_list_on_Search_Cars()"
 });
 formatter.result({
-  "duration": 1546801700,
+  "duration": 456258000,
   "status": "passed"
 });
 formatter.match({
@@ -455,11 +455,11 @@ formatter.match({
   "location": "SearchCars.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 133400,
+  "duration": 151700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1242988600,
+  "duration": 5212494400,
   "status": "passed"
 });
 formatter.uri("BuyUsedCarSearch.feature");
@@ -477,7 +477,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5811652200,
+  "duration": 6394165200,
   "status": "passed"
 });
 formatter.scenario({
@@ -600,14 +600,14 @@ formatter.match({
   "location": "SearchCars.i_am_on_homepage_of_carsguide_portal(String)"
 });
 formatter.result({
-  "duration": 4820023800,
+  "duration": 2515525200,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchCars.i_move_to_the_menu(String\u003e)"
 });
 formatter.result({
-  "duration": 260113300,
+  "duration": 360418100,
   "status": "passed"
 });
 formatter.match({
@@ -620,7 +620,7 @@ formatter.match({
   "location": "UsedCarSearch.click_on_link_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 1128071600,
+  "duration": 1445824600,
   "status": "passed"
 });
 formatter.match({
@@ -633,14 +633,14 @@ formatter.match({
   "location": "UsedCarSearch.select_carbrand_as_from_AnyMake_dropdown_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 1336881100,
+  "duration": 1402939500,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearch.select_car_model_on_Used_Search_Cars(String\u003e)"
 });
 formatter.result({
-  "duration": 1950374400,
+  "duration": 3198111300,
   "status": "passed"
 });
 formatter.match({
@@ -653,7 +653,7 @@ formatter.match({
   "location": "UsedCarSearch.select_location_as_from_locations_dropdown_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 462060600,
+  "duration": 331263400,
   "status": "passed"
 });
 formatter.match({
@@ -666,21 +666,21 @@ formatter.match({
   "location": "UsedCarSearch.select_price_as_from_prices_dropdown_on_Used_Search_Cars(String)"
 });
 formatter.result({
-  "duration": 1565526700,
+  "duration": 2449626900,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearch.click_on_Find_my_next_car_button_on_Used_Search_Cars()"
 });
 formatter.result({
-  "duration": 99700,
+  "duration": 72800,
   "status": "passed"
 });
 formatter.match({
   "location": "UsedCarSearch.i_should_see_the_searched_cars_list_on_Used_Search_Cars()"
 });
 formatter.result({
-  "duration": 1782334300,
+  "duration": 2972103400,
   "status": "passed"
 });
 formatter.match({
@@ -693,11 +693,11 @@ formatter.match({
   "location": "SearchCars.the_page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 117400,
+  "duration": 183500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 5932215300,
+  "duration": 2087381000,
   "status": "passed"
 });
 });

@@ -1,21 +1,8 @@
 package runner;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.HashMap;
-import java.util.Map;
-
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.runner.RunWith;
-
 import org.testng.annotations.Test;
 
-import com.cucumber.listener.ExtentCucumberFormatter;
-import com.relevantcodes.extentreports.ExtentReports;
-
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //If we want to run against JUnit then use @RunWith annotation of Junit
@@ -25,18 +12,19 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 glue = { "stepdefination" },
 monochrome = true, 
 tags= {"@New-Search-Car,@Used-Search-Cars,@Search-Car"},
-plugin = {
-		"html:target/cucumber-html-report", "json:target/cucumber-reports/cucumber.json",
-		"junit:target/cucumber-reports/cucumber.xml", "com.cucumber.listener.ExtentCucumberFormatter" 
-		}
-)
+plugin={"html:target/cucumber-html-report","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml"}
+		)
 
 //If we want to run against TestNG then use @Test annotation of TestNG
 @Test
 public class RunnerCukes extends AbstractTestNGCucumberTests {
+	
+	
+	
 
-	@org.testng.annotations.BeforeClass
+/*	@org.testng.annotations.BeforeClass
 	public static void setup() {
+		
 		// Initiates the extent report and generates the output in the
 		// output/Run/<unique timestamp>/report.html file by default
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy_hhmmss");
@@ -65,5 +53,5 @@ public class RunnerCukes extends AbstractTestNGCucumberTests {
 		ExtentCucumberFormatter.addSystemInfo(sysInfo);
 
 	}
-
+*/
 }
